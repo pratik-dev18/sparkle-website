@@ -232,4 +232,60 @@ section.show {
   transform: translateY(0);
 }
 
+img{
+  width: 100%;
+  height: auto;
+}
+
+
+
+/* Now navbar stacks vertically on phone */
+@media (max-width: 768px) {
+  
+  nav {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  nav a {
+    display: block;
+    font-size: 18px;
+  }
+
+}
+
+/* HERO SECTION (TEXT SIZE) */
+@media (max-width: 768px) {
+
+  .hero h2 {
+    font-size: 28px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+}
+
+
+/* GRID / CARDS */
+
+@media (max-width: 768px) {
+
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
+
+
+/* PADDING FOR MOBILE */
+@media (max-width: 768px) {
+
+  section {
+    padding: 40px 20px;
+  }
+
+}
 
